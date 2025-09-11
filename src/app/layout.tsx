@@ -1,4 +1,5 @@
 import "@styles/globals.css";
+import Navbar from "@components/Navbar";
 
 export const metadata = {
   title: "NextJS boilerplate",
@@ -12,8 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
-        <main>
+      <body className="bg-white/70">
+        <main className="pt-[9vh]">
+            <Navbar />
           {children}
         </main>
       </body>

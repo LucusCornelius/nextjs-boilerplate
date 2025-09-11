@@ -3,9 +3,8 @@ import Link from "next/link";
 import Main from "@components/home/Main";
 
 export default function Home() {
-  return (
-      <main className="flex min-h-screen flex-col items-center justify-between">
-          <Main />
-      </main>
-  );
+    return (
+        <div>CUSTOMER PAGE</div>
+
+    );
 }
