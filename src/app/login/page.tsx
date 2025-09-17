@@ -19,7 +19,6 @@ export default function RegisterForm() {
         const data = await res.json();
 
         if (res.ok) {
-            alert('Login successful!');
             window.location.href = data.redirect;
         } else {
             setError(data.error);

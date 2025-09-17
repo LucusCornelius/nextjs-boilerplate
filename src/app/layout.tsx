@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="bg-white/70">
+      <body className={"bg-[#0A0A0A]"}>
         <main className="pt-[9vh]">
             <Navbar />
           {children}
